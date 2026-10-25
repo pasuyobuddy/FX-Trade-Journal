@@ -1,0 +1,20 @@
+{
+  "name": "forex-trading-journal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forex trading journal for MT5 traders: import history, see win rate, profit factor, drawdown and per-pair stats.",
+  "scripts": {
+    "build:web": "node scripts/build-web.js",
+    "sync": "npm run build:web && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor-community/admob": "8.2.1",
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3",
+    "chart.js": "4.4.1",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

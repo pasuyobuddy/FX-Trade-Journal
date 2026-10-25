@@ -1,0 +1,10 @@
+{
+  "appId": "com.toni.fxjournal",
+  "appName": "FX Trade Journal",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "SplashScreen": { "launchShowDuration": 0 }
+  }
+}
